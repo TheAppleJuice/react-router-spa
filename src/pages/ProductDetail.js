@@ -5,11 +5,12 @@ const ProductDetail = () => {
 
   console.log(params.productId);
 
-  return;
-  <section>
-    <h1>Product Detail</h1>
-    <p>{params.productId}</p>
-  </section>;
+  return (
+    <section>
+      <h1>Product Detail</h1>
+      <p>{params.productId}</p>
+    </section>
+  );
 };
 
 export default ProductDetail;
